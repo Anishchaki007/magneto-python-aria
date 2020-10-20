@@ -1,9 +1,9 @@
 class _BotCommands:
     def __init__(self):
         self.StartCommand = 'start'
-        self.MirrorCommand = 'mirroros'
-        self.UnzipMirrorCommand = 'unzipmirroros'
-        self.TarMirrorCommand = 'tarmirroros'
+        self.MirrorCommand = 'mirrorapp'
+        self.UnzipMirrorCommand = 'unzipmirrorapp'
+        self.TarMirrorCommand = 'tarmirrorapp'
         self.CancelMirror = 'cancel'
         self.CancelAllCommand = 'cancelall'
         self.ListCommand = 'list'
@@ -15,7 +15,7 @@ class _BotCommands:
         self.StatsCommand = 'stats'
         self.HelpCommand = 'help'
         self.LogCommand = 'log'
-        self.CloneCommand = "cloneos"
+        self.CloneCommand = "cloneapp"
         self.WatchCommand = 'watch'
         self.TarWatchCommand = 'tarwatch'
         self.deleteCommand = 'del'
